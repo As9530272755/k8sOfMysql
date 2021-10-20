@@ -1,0 +1,85 @@
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mysql-datadir-1
+  namespace: mysql
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteOnce
+  nfs:
+    path: /data/k8sdata/mysql/mysql-datadir-1 
+    server: 10.0.0.133
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mysql-datadir-2
+  namespace: mysql
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteOnce
+  nfs:
+    path: /data/k8sdata/mysql/mysql-datadir-2
+    server: 10.0.0.133
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mysql-datadir-3
+  namespace: mysql
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteOnce
+  nfs:
+    path: /data/k8sdata/mysql/mysql-datadir-3
+    server: 10.0.0.133
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mysql-datadir-4
+  namespace: mysql
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteOnce
+  nfs:
+    path: /data/k8sdata/mysql/mysql-datadir-4
+    server: 10.0.0.133
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mysql-datadir-5
+  namespace: mysql
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteOnce
+  nfs:
+    path: /data/k8sdata/mysql/mysql-datadir-5
+    server: 10.0.0.133
+
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mysql-datadir-6
+  namespace: mysql
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteOnce
+  nfs:
+    path: /data/k8sdata/mysql/mysql-datadir-6
+    server: 10.0.0.133
